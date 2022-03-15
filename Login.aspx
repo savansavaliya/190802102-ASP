@@ -31,7 +31,8 @@
             <form id="form1" runat="server">
            
             <asp:TextBox ID="TextBox1" runat="server" class="ggg" placeholder="E-MAIL"></asp:TextBox>
-            <asp:TextBox ID="TextBox2" runat="server" class="ggg" placeholder="PASSWORD"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" class="ggg" placeholder="PASSWORD" 
+                TextMode="Password"></asp:TextBox>
             
             <span>
                 <input type="checkbox" />Remember Me</span>
@@ -44,7 +45,7 @@
                 onclick="Button1_Click" />
             </form>
             <p>
-                Don't Have an Account ?<a href="registration.html">Create an account</a></p>
+                Don't Have an Account ?<a href="registration.aspx">Create an account</a></p>
         </div>
     </div>
     <script src="src/js/bootstrap.js"></script>
